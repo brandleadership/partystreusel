@@ -74,11 +74,8 @@ Load it inside your manifest, usually application.js(.coffee):
 
 ## Carousel
 
-The carousel component has dependencies to jQuery and jQuery-UI-Effects.
-Load them together with the carousel inside your manifest, usually application.js(.coffee):
+Load it inside your manifest, usually application.js(.coffee):
 
-    #= require jquery
-    #= require jquery-ui
     #= require sc.carousel
 
 #### Required Model (json):
