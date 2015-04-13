@@ -1,13 +1,12 @@
 .teaser--assets
 
   .teaser__item
-    +span-columns(3)
-
-    &:nth-of-type(3n)
+    &:nth-child(3n)
       margin-right: +flex-gutter()
 
-    &:nth-of-type(4n)
-      margin-right: 0
+  .teaser__item
+    +span-columns(3)
+    +omega(4n)
 
   .teaser__btn
     font-size: rem(18)

@@ -1,10 +1,9 @@
 .teaser--assets
 
   .teaser__item
-    +span-columns(2)
-
-    &:nth-of-type(4n)
+    &:nth-child(4n)
       margin-right: +flex-gutter()
 
-    &:nth-of-type(6n)
-      margin-right: 0
+  .teaser__item
+    +span-columns(2)
+    +omega(6n)
