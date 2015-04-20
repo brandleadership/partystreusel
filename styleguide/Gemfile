@@ -20,5 +20,9 @@ gem 'normalize-rails', require: false
 gem 'middleman-bourbon'
 gem 'middleman-neat'
 gem 'middleman-jquery'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jquery-cycle2'
+end
 # gem 'jquery-rails', require: false
 # gem 'jquery-ui-rails', require: false
