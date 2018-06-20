@@ -4,7 +4,6 @@ title: Plugin recommendation
 
 #### slider
 * flickity (http://flickity.metafizzy.co/)
-* cycle2 (http://jquery.malsup.com/cycle2/)
 
 #### Range Slider (input)
 * rangeslider.js (http://rangeslider.js.org/)
