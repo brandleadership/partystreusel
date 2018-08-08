@@ -1,6 +1,13 @@
 # CHANGELOG
 
-# v6.0.1
+## v6.1.0
+* add new polyfills
+* update dependencies 🚀
+* update docs 📝
+* update preview layout include
+* update font-weight definitions
+
+## v6.0.1
 * update configs for webpack v4
 * update sass&susy dependencies
 
@@ -10,7 +17,7 @@
 * update packages (webpack to v4)
 * fix webfont handling with webpack
 
-### v6.0.0-rc.1
+## v6.0.0-rc.1
 * remove fabricator as pattern library generator
   * add clearlet's fractal
   * change folder structure
