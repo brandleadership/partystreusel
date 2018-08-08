@@ -3,7 +3,7 @@
 ## Getting started
 
 You will need [Node.js](http://nodejs.org)
-Use [yarn](https://yarnpkg.com) as your package manager, or npm. 
+Use [yarn](https://yarnpkg.com) as your package manager, or npm.
 
     $ git clone https://github.com/brandleadership/partystreusel.git YOUR_APP_DIRECTORY --depth 1
     $ cd YOUR_APP_DIRECTORY

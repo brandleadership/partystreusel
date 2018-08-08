@@ -73,7 +73,7 @@ $body__font-color:            $color__dark;
 
 // HEADINGS font styles
 $heading__font-family:        $body__font-family;
-$heading__font-weight:        900;
+$heading__font-weight:        $font-weight--bold;
 
 // PARAGRAPHS
 $paragraph__font-family:      inherit;

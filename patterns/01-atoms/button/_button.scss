@@ -13,7 +13,7 @@ $btn__size: rem(23);
   text-decoration: none;
   text-align: center;
   font-size: rem(18);
-  font-weight: bold;
+  font-weight: $font-weight--medium;
   line-height: 1.33;
   text-transform: uppercase;
   color: $color__accent--dark;
