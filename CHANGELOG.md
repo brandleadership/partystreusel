@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## dev
+* update dependencies 🚀
+
 ## v6.1.0
 * add new polyfills
 * update dependencies 🚀
