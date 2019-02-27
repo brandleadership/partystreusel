@@ -23,3 +23,6 @@ title: Plugin recommendation
 
 #### Slideout/Offcanvas
 * slideout.js (https://slideout.js.org/)
+
+#### Embed Player
+* plyr (https://github.com/sampotts/plyr)

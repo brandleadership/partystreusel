@@ -84,6 +84,7 @@
     "nodelist-foreach-polyfill": "^1.2.0",
     "normalize.css": "^8.0.0",
     "picturefill": "^3.0.3",
+    "plyr": "^3.5.2",
     "susy": "2.x",
     "tabbyjs": "^11.2.0"
   }
