@@ -1,10 +1,14 @@
 {{#each colors}}
-	<div class="f-color-chips">
-	{{#each this}}
-		<div class="f-color-chip">
-			<div class="f-color-chip__name">{{@key}}</div>
-			<div class="f-color-chip__color">{{this}}</div>
-		</div>
-	{{/each}}
-	</div>
+  <h2>{{ name }}</h2>
+  <div class="f-palette">
+    {{#each items}}
+      <figure class="f-color">
+        <svg aria-label="{{ this }}">
+          <rect fill="{{ this }}" width="100%" height="100%"/>
+          <text fill="white" x="10" y="10" alignment-baseline="hanging">{{ this }}</text>
+        </svg>
+        <figcaption><code>{{ @key }}</code></figcaption>
+      </figure>
+    {{/each}}
+  </div>
 {{/each}}

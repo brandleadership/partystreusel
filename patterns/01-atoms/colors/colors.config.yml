@@ -1,20 +1,33 @@
 notes: This is not a module to use it, only for pattern library presentation.
-status: prototype
+status: wip
 context:
   colors:
     brand:
-      one: "#d60051"
-      dark: "#381c2e"
-      two: "#00d2d3"
+      name: "Brand Colors"
+      items:
+        one: "#d60051"
+        dark: "#381c2e"
+        two: "#00d2d3"
     base:
-      dark: "#333"
-      light: "#fff"
+      name: "Base Colors"
+      items:
+        dark:     "#000"
+        grey--87: "#212121"
+        grey--54: "#757575"
+        grey--38: "#9e9e9e"
+        grey--12: "#e0e0e0"
+        grey--6:  "#f0f0f0"
+        light:    "#fff"
     accent:
-      accent--light: "#f0f0f0"
-      accent: "#acacac"
-      accent--dark: "#6e6e6e"
+      name: "Accent Colors"
+      items:
+        accent--light: "#f0f0f0"
+        accent: "#acacac"
+        accent--dark: "#6e6e6e"
     states:
-      warning: "#f08a24"
-      alert: "#f00"
-      info: "#a0d3e8"
-      success: "#43ac6a"
+      name: "States Colors"
+      items:
+        alert:    "#dc3545"
+        warning:  "#ffc107"
+        success:  "#28a745"
+        info:     "#17a2b8"
