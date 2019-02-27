@@ -1,13 +1,13 @@
 context:
   url: '#'
-  text: Button
+  text: Button Label
 variants:
   - name: primary
     context:
       modifier: btn--primary
-  - name: blank
+  - name: secondary
     context:
-      modifier: btn--blank
+      modifier: btn--secondary
   - name: small
     context:
       modifier: btn--small
