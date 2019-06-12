@@ -29,45 +29,42 @@
   </head>
   <body>
 
-    <section>
-  <div class="tab js-tab">
-    <ul role="tablist" class="tab__nav" data-tabs>
-        <li role="presentation" class="tab__nav-item ">
-          <a href="#panel0" role="tab" data-tab>Tab titel 1</a>
-        </li>
-        <li role="presentation" class="tab__nav-item ">
-          <a href="#panel1" role="tab" data-tab>Tab titel 2</a>
-        </li>
-        <li role="presentation" class="tab__nav-item tab--active">
-          <a href="#panel2" role="tab" data-tab>Tab titel 3</a>
-        </li>
-        <li role="presentation" class="tab__nav-item ">
-          <a href="#panel3" role="tab" data-tab>Tab titel 4</a>
-        </li>
-        <li role="presentation" class="tab__nav-item ">
-          <a href="#panel4" role="tab" data-tab>Tab titel 5</a>
-        </li>
-    </ul>
-    <div class="tab__panels" data-tabs-content>
-        <section role="tabpanel" id="panel0" class="tab__panel " data-tabs-pane>
-          Lorem ipsum 0
-        </section>
-        <section role="tabpanel" id="panel1" class="tab__panel " data-tabs-pane>
-          Lorem ipsum 1
-        </section>
-        <section role="tabpanel" id="panel2" class="tab__panel tab--active" data-tabs-pane>
-          Lorem ipsum 2
-        </section>
-        <section role="tabpanel" id="panel3" class="tab__panel " data-tabs-pane>
-          Lorem ipsum 3
-        </section>
-        <section role="tabpanel" id="panel4" class="tab__panel " data-tabs-pane>
-          Lorem ipsum 4
-        </section>
-    </div>
+    <section class="tab js-tab">
+  <ul role="tablist" class="tab__nav" data-tabs>
+      <li role="presentation" class="tab__nav-item tab--active">
+        <a class="tab__link tab--active" href="#panel0" role="tab" data-tab>Tab titel 1</a>
+      </li>
+      <li role="presentation" class="tab__nav-item ">
+        <a class="tab__link " href="#panel1" role="tab" data-tab>Tab titel 2</a>
+      </li>
+      <li role="presentation" class="tab__nav-item ">
+        <a class="tab__link " href="#panel2" role="tab" data-tab>Tab titel 3</a>
+      </li>
+      <li role="presentation" class="tab__nav-item ">
+        <a class="tab__link " href="#panel3" role="tab" data-tab>Tab titel 4</a>
+      </li>
+      <li role="presentation" class="tab__nav-item ">
+        <a class="tab__link " href="#panel4" role="tab" data-tab>Tab titel 5</a>
+      </li>
+  </ul>
+  <div class="tab__panels" data-tabs-content>
+      <section role="tabpanel" id="panel0" class="tab__panel tab--active" data-tabs-pane>
+        Lorem ipsum 0
+      </section>
+      <section role="tabpanel" id="panel1" class="tab__panel " data-tabs-pane>
+        Lorem ipsum 1
+      </section>
+      <section role="tabpanel" id="panel2" class="tab__panel " data-tabs-pane>
+        Lorem ipsum 2
+      </section>
+      <section role="tabpanel" id="panel3" class="tab__panel " data-tabs-pane>
+        Lorem ipsum 3
+      </section>
+      <section role="tabpanel" id="panel4" class="tab__panel " data-tabs-pane>
+        Lorem ipsum 4
+      </section>
   </div>
 </section>
-
 
     <!-- toolkit scripts -->
     <script src="../../js/polyfills.js"></script>

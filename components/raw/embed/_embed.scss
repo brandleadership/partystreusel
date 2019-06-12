@@ -1,22 +1,5 @@
-$embed__ratio: (720/1280)*100%;
-
 .embed {
-  position: relative;
-  padding-bottom: $embed__ratio;
-  padding-top: rem(25);
-  height: 0;
-  margin-bottom: space(2);
-
-  video {
-    width: 100%;
-    height: auto;
-  }
-
   iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    border: none;
   }
 }
