@@ -1,4 +1,4 @@
-import Plyr from 'plyr';
+import Plyr from 'plyr/dist/plyr.polyfilled';
 import Base from '../../_config/base';
 
 class Embed extends Base {
