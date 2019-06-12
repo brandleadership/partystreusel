@@ -45,18 +45,27 @@ input::placeholder {
 textarea {
   display: block;
   width: 100%;
-  background-color: $color__accent--light;
-  border: rem(1) solid $color__accent--light;
+  background-color: $color__bright;
+  border: rem(1) solid $color__grey--6;
   border-radius: 0;
-  padding: rem(9) rem(12);
+  padding: rem(8);
   font-size: rem(16);
-  line-height: 1.5;
-  background-clip: padding-box; //removes ios box-shadow
+  line-height: 1.2;
+  background-clip: padding-box;
 
   &:focus {
     outline: 0;
     background-color: $color__bright;
     border-color: $color__accent;
+    box-shadow: 0 0 rem(4) 0 rgba($color__cta, 1);
+  }
+
+  &:hover {
+    border-color: $color__cta-hover;
+  }
+
+  &:active {
+    box-shadow: none;
   }
 }
 
