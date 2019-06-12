@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## dev
+## v6.2.0
 * update tab
 * update embed
 * update buttons
