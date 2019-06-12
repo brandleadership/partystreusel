@@ -1,18 +1,16 @@
-<section>
-  <div class="tab js-tab">
-    <ul role="tablist" class="tab__nav" data-tabs>
-      {{#each items}}
-        <li role="presentation" class="tab__nav-item {{modifier}}">
-          <a href="#panel{{@index}}" role="tab" data-tab>{{title}}</a>
-        </li>
-      {{/each}}
-    </ul>
-    <div class="tab__panels" data-tabs-content>
-      {{#each items}}
-        <section role="tabpanel" id="panel{{@index}}" class="tab__panel {{modifier}}" data-tabs-pane>
-          Lorem ipsum {{@index}}
-        </section>
-      {{/each}}
-    </div>
+<section class="tab js-tab">
+  <ul role="tablist" class="tab__nav" data-tabs>
+    {{#each items}}
+      <li role="presentation" class="tab__nav-item {{modifier}}">
+        <a class="tab__link {{modifier}}" href="#panel{{@index}}" role="tab" data-tab>{{title}}</a>
+      </li>
+    {{/each}}
+  </ul>
+  <div class="tab__panels" data-tabs-content>
+    {{#each items}}
+      <section role="tabpanel" id="panel{{@index}}" class="tab__panel {{modifier}}" data-tabs-pane>
+        Lorem ipsum {{@index}}
+      </section>
+    {{/each}}
   </div>
 </section>

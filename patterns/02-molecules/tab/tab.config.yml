@@ -1,8 +1,8 @@
 context:
   items:
   - title: Tab titel 1
+    modifier: tab--active
   - title: Tab titel 2
   - title: Tab titel 3
-    modifier: tab--active
   - title: Tab titel 4
   - title: Tab titel 5

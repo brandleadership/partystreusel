@@ -1,4 +1,4 @@
-$btn__size: rem(23);
+$btn__size: rem(24);
 
 // Default Button
 // ----------------------------------------
@@ -7,16 +7,16 @@ $btn__size: rem(23);
   position: relative;
   cursor: pointer;
   margin: 0 0 rem(18);
-  padding: rem(7) rem(12) rem(8);
-  background-color: $color__accent--light;
-  border: rem(1) solid $color__accent--light;
+  padding: rem(8) rem(12);
+  background-color: $color__bright;
+  border: rem(1) solid $color__bright;
   text-decoration: none;
   text-align: center;
-  font-size: rem(18);
+  font-size: rem(16);
   font-weight: $font-weight--medium;
-  line-height: 1.33;
+  line-height: 1.375;
   text-transform: uppercase;
-  color: $color__accent--dark;
+  color: $color__cta;
   user-select: none;
   appearance: none;
   transition: all 0.1s ease-in-out;
@@ -32,96 +32,116 @@ $btn__size: rem(23);
     pointer-events: none;
   }
 
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 rem(4) 0 rgba($color__brand--one, 1);
+  }
+
   &:hover {
-    color: $color__dark;
-    background: $color__accent--light;
-    border-color: $color__accent--light;
+    color: $color__cta;
+    background-color: $color__grey--6;
+    border-color: $color__grey--6;
+    box-shadow: 0 rem(1) rem(2) 0 rgba($color__dark, 0.25);
   }
 
   &:active,
   &.btn--active {
     transition: none;
-    color: $color__dark;
-    background: $color__accent;
-    border-color: $color__accent;
+    color: $color__grey--54;
+    background-color: $color__grey--6;
+    border-color: $color__grey--6;
+    box-shadow: none;
   }
 
-  &:focus {
-    outline: 0;
+  &:disabled {
+    color: $color__grey--38;
+    cursor: not-allowed;
+
+    &:hover {
+      color: $color__grey--38;
+      background-color: $color__bright;
+      border-color: $color__bright;
+      box-shadow: none;
+    }
   }
 }
 
-// Secondary Button
+// Primary Button
 // ----------------------------------------
 .btn--primary {
   color: $color__bright;
   background-color: $color__brand--one;
   border-color: $color__brand--one;
 
+  &:focus {
+    border-color: $color__bright;
+  }
+
   &:hover {
     color: $color__bright;
-    background-color: $color__accent--dark;
-    border-color: $color__accent--dark;
+    background-color: $color__cta-hover;
+    border-color: transparent;
   }
 
   &:active,
   &.btn--active {
-    color: $color__bright;
-    background-color: $color__brand--dark;
-    border-color: $color__brand--dark;
+    color: $color__grey--54;
+    background-color: $color__bright;
+    border-color: $color__bright;
+  }
+
+  &:disabled {
+    background-color: $color__grey--6;
+    border-color: $color__grey--6;
+
+    &:hover {
+      background-color: $color__grey--6;
+      border-color: $color__grey--6;
+      box-shadow: none;
+    }
   }
 }
 
-// Blank Button
+// Secondary Button
 // ----------------------------------------
-.btn--blank {
-  color: $color__accent;
-
-  &,
-  &:hover,
-  &:active,
-  &.btn--active {
-    border-color: transparent;
-    background-color: transparent;
-  }
+.btn--secondary {
+  color: $color__grey--54;
 
   &:hover {
-    color: $color__accent--dark;
+    color: $color__grey--54;
   }
 
   &:active,
   &.btn--active {
-    color: $color__dark;
+    color: $color__brand--one;
+    background-color: $color__grey--6;
+    border-color: $color__grey--6;
   }
 }
 
 // Only Icon Style
 // ----------------------------------------
 .btn--icon {
-  width: rem(40);
-  height: rem(40);
-  padding: rem(8) 0;
-  background: transparent;
-  border: 0;
-  border-radius: $border-radius--round;
-  color: $color__brand--two;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  &:hover {
-    color: $color__accent--dark;
-    background-color: $color__accent--light;
-  }
+.btn--icon-left {
+  margin-left: rem(-4);
+  margin-right: rem(4);
+}
 
-  &:active {
-    color: $color__dark;
-    background-color: $color__accent;
-  }
+.btn--icon-right {
+  margin-left: rem(4);
+  margin-right: rem(-4);
 }
 
 // Small Style
 // ----------------------------------------
 .btn--small {
-  padding-top: rem(5);
-  padding-bottom: rem(5);
+  padding-top: rem(4);
+  padding-bottom: rem(4);
 }
 
 // Expanded Style

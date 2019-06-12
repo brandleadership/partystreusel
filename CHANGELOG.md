@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## dev
+* update tab
+* update embed
+* update buttons
+* update license 📝
+* update color palette
+* update dependencies 📦
+
 ## v6.1.0
 * add new polyfills
 * update dependencies 🚀

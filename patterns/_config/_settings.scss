@@ -43,27 +43,35 @@ $breakpoints: (
 
 // COLORS
 // - use general variable naming!
-$color__dark:               #333;
+$color__dark:               #000;
+$color__grey--87:           #212121;
+$color__grey--54:           #757575;
+$color__grey--38:           #9e9e9e;
+$color__grey--12:           #e0e0e0;
+$color__grey--6:            #f0f0f0;
 $color__bright:             #fff;
 
 $color__brand--one:         #d60051;
 $color__brand--dark:        #381c2e;
 $color__brand--two:         #00d2d3;
 
+$color__cta:                $color__brand--one;
+$color__cta-hover:          rgba($color__cta, 0.7);
+
 $color__accent:             #acacac;
 $color__accent--light:      #f0f0f0;
 $color__accent--dark:       #6e6e6e;
 
-$color__alert:              #f00;
-$color__success:            #43ac6a;
-$color__warning:            #f08a24;
-$color__info:               #a0d3e8;
+$color__alert:              #dc3545;
+$color__warning:            #ffc107;
+$color__success:            #28a745;
+$color__info:               #17a2b8;
 
 // TYPOGRAPHY
 // ----------------------------------------
 $font-weight--light:          300;
 $font-weight--regular:        400;
-$font-weight--medium:         400;
+$font-weight--medium:         500;
 $font-weight--bold:           700;
 
 $body__font-family:           'Helvetica Neue', Helvetica, Arial, sans-serif;

@@ -3,6 +3,7 @@ import Accordion from './02-molecules/accordion/accordion';
 import Tab from './02-molecules/tab/tab';
 import Dropdown from './02-molecules/dropdown/dropdown';
 import Slider from './02-molecules/slider/slider';
+import Embed from './02-molecules/embed/embed';
 import Offcanvas from './03-organisms/offcanvas/offcanvas';
 
 require('./main.scss');
@@ -26,5 +27,6 @@ ready(() => {
   Streusel.Tab = Tab.init();
   Streusel.Dropdown = Dropdown.init();
   Streusel.Slider = Slider.init();
+  Streusel.Embed = Embed.init();
   Streusel.Offcanvas = Offcanvas.init();
 });
