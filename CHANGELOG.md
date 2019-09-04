@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## dev
+* adding checklist
+* update dependencies 📦
+* clean up package.json ⚡️
+
 ## v6.2.0
 * update tab
 * update embed
