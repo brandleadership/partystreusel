@@ -36,7 +36,7 @@
     "fractal:build": "fractal build",
     "clean": "del-cli public/* build/*",
     "imagemin": "imagemin patterns/images/*.{jpg,png,gif,svg} --out-dir=public/images",
-    "svgsprite": "svg-sprite --svg-xmldecl false --symbol --symbol-sprite 'icon-sprite.svg' --sx true patterns/images/./**/*.svg --symbol-dest public/images/ --symbol-example-dest ../../patterns/01-atoms/icons/all-icons.hbs --symbol-example-template patterns/01-atoms/icons/_sprite-preview-template.html",
+    "svgsprite": "svg-sprite --svg-xmldecl false --symbol --symbol-sprite 'icon-sprite.svg' --symbol-example true patterns/images/./**/*.svg --symbol-dest public/images/ --symbol-example-dest ../../patterns/01-atoms/icons/all-icons.hbs --symbol-example-template patterns/01-atoms/icons/_sprite-preview-template.html",
     "lint": "stylelint 'patterns/**/*.scss' --syntax scss",
     "test": "run-s css:build lint",
     "deploy": "npm-run-all build deploy:github",
