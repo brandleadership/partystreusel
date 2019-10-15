@@ -1,9 +1,16 @@
 # CHANGELOG
 
-## dev
+## Unreleased
+
+### Added
 * adding checklist
+
+### Changed
 * update dependencies 📦
 * clean up package.json ⚡️
+
+### Fixed
+* bugfix svgsprite
 
 ## v6.2.0
 * update tab
