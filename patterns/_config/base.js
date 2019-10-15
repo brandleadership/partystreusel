@@ -19,7 +19,7 @@ class Base {
     const elementsToInit = element.querySelectorAll(selector);
 
     // return elementsToInit.forEach(el => new this(el), this);
-    return arrayFrom(elementsToInit).forEach(el => new this(el), this);
+    return arrayFrom(elementsToInit).forEach((el) => new this(el), this);
   }
 }
 
