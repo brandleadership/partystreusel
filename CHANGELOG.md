@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Unreleased
+
+### Changed
+* update dependencies 📦
+* update node version 📦
+
 ## 6.3.0 - 2019-10-15
 
 ### Added
