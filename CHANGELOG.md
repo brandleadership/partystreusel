@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Unreleased
+
+### Changed
+* update dependencies 📦
+
 ## 6.4.0 - 2020-01-21
 
 ### Changed
