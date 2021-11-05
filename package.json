@@ -81,7 +81,6 @@
     "array-from": "2.1.1",
     "classlist-polyfill": "1.2.0",
     "element-closest": "3.0.2",
-    "flickity": "2.2.1",
     "lazysizes": "5.2.0",
     "mdn-polyfills": "5.19.0",
     "moveto": "1.8.2",
@@ -90,6 +89,7 @@
     "picturefill": "3.0.3",
     "plyr": "3.5.6",
     "susy": "2.x",
+    "swiper": "^7.2.0",
     "tabbyjs": "11.2.0"
   }
 }

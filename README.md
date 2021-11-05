@@ -22,10 +22,6 @@ Use [yarn](https://yarnpkg.com) as your package manager, or npm.
     # Or you can generate a production ready build
     $ yarn build
 
-
 ## Documentation
 
 - Partystreusel is based on [fractal](https://fractal.build/guide) from clearleft.
-
-## License information for included plugins
-* Flickity may be used in commercial projects and applications with the one-time purchase of a commercial license. http://flickity.metafizzy.co/license.html

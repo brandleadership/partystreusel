@@ -1,11 +1,15 @@
-<section class="slider js-slider">
-  <div class="slider__inner">
-    <div class="slider__items">
-      {{#each items}}
-        <div class="slider__item">
-          <img class="slider__image" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Alt Text" data-flickity-lazyload="{{this}}" width="1200" height="675"/>
-        </div>
-      {{/each}}
+<div class="slider js-slider">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        {{#each items }}
+          <div class="swiper-slide">
+              <img src="{{item}}" alt="Img">
+          </div>
+        {{/each}}
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
     </div>
   </div>
-</section>
+</div>

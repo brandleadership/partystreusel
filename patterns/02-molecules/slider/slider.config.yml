@@ -1,5 +1,5 @@
 context:
   items:
-    - https://source.unsplash.com/1200x675/weekly
-    - https://source.unsplash.com/1200x675/weekly
-    - https://source.unsplash.com/1200x675/weekly
+    - item: https://source.unsplash.com/1200x675/weekly
+    - item: https://source.unsplash.com/1200x675/weekly
+    - item: https://source.unsplash.com/1200x675/weekly
